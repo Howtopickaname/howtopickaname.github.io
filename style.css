@@ -1,0 +1,68 @@
+.highlight{
+	fill:palevioletred
+}
+#tooltip{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+	background-color: blanchedalmond;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	pointer-events: none;
+}
+#tooltip.hidden{
+	display: none;
+}
+#tooltip p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.bar{
+    fill: #720570
+}
+.button {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
